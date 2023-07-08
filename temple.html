@@ -9,13 +9,15 @@
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
-        height: 95vh;
+
+        height: 40vh;
         width: 98vw;
         
     }
     .temple-inner{
-        width: 49vw;
-        height: 90vh;
+        width: 30vw;
+        height: 40vh;
+        margin-left: 20px;
        
 
     }
@@ -25,9 +27,23 @@
         text-decoration: underline;
     }
     img{
-        width:45vw;
-        height:80vh ;
+        width:30vw;
+        height:40vh ;
     }
+   @media screen and (max-width:500px) {
+   
+    .temple-inner{
+        min-width: 100%;
+        min-height: 100%;
+        margin-bottom: 40px;
+
+    }
+    img{
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+   }
  </style>
    
 </head>
