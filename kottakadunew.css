@@ -29,7 +29,7 @@
 }
 
 
-/* @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .head {
         width: 99vw;
         height: 6vh;
@@ -62,4 +62,4 @@
         color: blueviolet;
     }
     
-} */
+}
